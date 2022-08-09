@@ -71,7 +71,7 @@ sudo /etc/init.d/xrdp start
 3. Login using your Ubuntu username and password
 
 
-## Links for Reference and extra information :##
+## Links for Reference and extra information : ##
 
 1. Microsoft GUI announcement: https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/
 
