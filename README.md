@@ -2,37 +2,38 @@
 
 ## WSL commands: ##
 
-1. dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-2. dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
-3. wsl --set-default-version 2
-
+wsl --set-default-version 2
+```
 ## Ubuntu GUI commands: ##
+```
+sudo apt update && sudo apt -y upgrade
 
-1. sudo apt update && sudo apt -y upgrade
+sudo apt-get purge xrdp
 
-2. sudo apt-get purge xrdp
+sudo apt install -y xrdp
 
-3. sudo apt install -y xrdp
+sudo apt install -y xfce4
 
-4. sudo apt install -y xfce4
+sudo apt install -y xfce4-goodies
 
-5. sudo apt install -y xfce4-goodies
+sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 
-6. sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
 
-7. sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
 
-8. sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
 
-9. sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+echo xfce4-session > ~/.xsession
 
-10. echo xfce4-session > ~/.xsession
-
-11. sudo nano /etc/xrdp/startwm.sh
-
-## 12. Comment these lines to: ##
+sudo nano /etc/xrdp/startwm.sh
+```
+##  Comment these lines to: ##
 
 #test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 #exec /bin/sh /etc/X11/Xsession
