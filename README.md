@@ -43,7 +43,7 @@ echo xfce4-session > ~/.xsession
 
 sudo nano /etc/xrdp/startwm.sh
 ```
-##  Comment these lines to: ##
+##  Comment these lines : ##
 ```
 #test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 
