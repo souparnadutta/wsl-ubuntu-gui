@@ -38,8 +38,11 @@
 #exec /bin/sh /etc/X11/Xsession
 
 ## 13. Add these lines: ##
+
 <>
+
 [# xfce]
+
 startxfce4
 
 14.sudo /etc/init.d/xrdp start
