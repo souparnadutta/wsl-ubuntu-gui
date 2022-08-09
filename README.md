@@ -39,7 +39,7 @@ sudo nano /etc/xrdp/startwm.sh
 
 #exec /bin/sh /etc/X11/Xsession
 ```
-## 13. Add these lines: ##
+## Add these lines: ##
 
 
 ```
@@ -47,8 +47,10 @@ sudo nano /etc/xrdp/startwm.sh
 
 startxfce4
 ```
-
-14.sudo /etc/init.d/xrdp start
+To start the Remote Desktop Connection
+```
+sudo /etc/init.d/xrdp start
+```
 
 ## Now in Windows, use Remote Desktop Connection ##
 
