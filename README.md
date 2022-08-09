@@ -8,7 +8,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 wsl --set-default-version 2
 
-!Ubuntu GUI commands:
+## Ubuntu GUI commands: ##
 sudo apt update && sudo apt -y upgrade
 sudo apt-get purge xrdp
 sudo apt install -y xrdp
