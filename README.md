@@ -39,7 +39,7 @@
 
 ## 13. Add these lines: ##
 
-# xfce
+[//]# xfce
 startxfce4
 
 14.sudo /etc/init.d/xrdp start
