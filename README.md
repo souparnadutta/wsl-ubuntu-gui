@@ -47,34 +47,34 @@ sudo nano /etc/xrdp/startwm.sh
 
 startxfce4
 ```
-To start the Remote Desktop Connection
+## To start the Remote Desktop Connection ##
 ```
 sudo /etc/init.d/xrdp start
 ```
 
 ## Now in Windows, use Remote Desktop Connection ##
 
-1.Search for remote desktop connection
+1. Search for remote desktop connection
 
 2. Set the computer as localhost:3390
 
 3. Login using your Ubuntu username and password
 
 
-##Links for Reference and extra information :##
+## Links for Reference and extra information :##
 
-1.Microsoft GUI announcement: https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/
+1. Microsoft GUI announcement: https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/
 
-2.Ubuntu WSL2 GUI Install:
+2. Ubuntu WSL2 GUI Install:
 
-3.https://dev.to/darksmile92/linux-on-windows-wsl-with-desktop-environment-via-rdp-522g
+3. https://dev.to/darksmile92/linux-on-windows-wsl-with-desktop-environment-via-rdp-522g
 
-4.WSL 2 install: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+4. WSL 2 install: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-5.Docker for WSL2: https://docs.docker.com/docker-for-windows/wsl/
+5. Docker for WSL2: https://docs.docker.com/docker-for-windows/wsl/
 
-6.What is WSL? https://docs.microsoft.com/en-us/windows/wsl/about
+6. What is WSL? https://docs.microsoft.com/en-us/windows/wsl/about
 
-7.WSL documentation: https://docs.microsoft.com/en-us/windows/wsl/
+7. WSL documentation: https://docs.microsoft.com/en-us/windows/wsl/
 
-8.WSL 2 Announcement: https://devblogs.microsoft.com/commandline/announcing-wsl-2/
+8. WSL 2 Announcement: https://devblogs.microsoft.com/commandline/announcing-wsl-2/
