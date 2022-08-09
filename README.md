@@ -1,6 +1,10 @@
 # wsl-ubuntu-gui
 
+This repo contains all the steps to download Ubuntu and use its GUI on a Windows system
+
 ## WSL commands: ##
+
+Type the following WSL commands in Powershell to download WSL
 
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
@@ -8,8 +12,14 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
 wsl --set-default-version 2
+
 ```
+Now , go to Microsoft Store and download the latest version of Ubuntu. After that open your new Ubuntu terminal by searching Ubuntu and type the following commands
+
 ## Ubuntu GUI commands: ##
+
+Type the following commands in Ubuntu terminal to get the GUI version of Ubuntu
+
 ```
 sudo apt update && sudo apt -y upgrade
 
